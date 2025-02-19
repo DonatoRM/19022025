@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Donato Ramos Martínez" />
+    <meta name="description" content="Examen de Módulo formativo MF0493_3" />
+    <meta name="keywords" content="html,css,javascript" />
+    <title>Examen</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" media="all" />
+  </head>
+  <body>
+    <main>
+      <section class="homeScreen" role="group" aria-labelledby="groupLabel">
+        <header>
+          <h2 id="groupLabel" class="name">Ventana principal</h2>
+        </header>
+        <article class="businessArea">hola</article>
+        <article class="productsArea">
+          <div aria-labelledby="productGroups" id="productGroups" class="productGroups">
+            <header>
+              <h3 class="name" id="productGroups">Grupo de productos</h3>
+            </header>
+          </div>
+          <div aria-labelledby="productItems" class="productItems">
+            <header>
+              <h3 id="productItems" class="name">Items de Productos</h3>
+            </header>
+          </div>
+        </article>
+      </section>
+      <section class="zoneTable" role="dialog" aria-labelledby="zone" aria-expanded="false">
+        <h2 class="name" id="zone">Zona</h2>
+        <ul>
+          <li><button class="tableItem" id="buttonTicket" aria-label="ticket">Ticket</button></li>
+          <li><button class="tableItem" id="buttonBarra" aria-label="Barra">Barra</button></li>
+          <li><button class="tableItem" id="buttonSalonGlop" aria-label="Salón Glop">Salón Glop</button></li>
+          <li><button class="tableItem" id="buttonTerraza" aria-label="Terraza">Terraza</button></li>
+          <li><button class="tableItem" id="buttonLlevar" aria-label="Para llevar">Para llevar</button></li>
+        </ul>
+      </section>
+      <section class="summary" role="region" aria-labelledby="regionLabel">
+        <header>
+          <h2 id="regionLabel" class="name">Resumen</h2>
+        </header>
+        hello
+      </section>
+    </main>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>

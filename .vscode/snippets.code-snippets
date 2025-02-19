@@ -1,0 +1,32 @@
+{
+    "Print to console": {
+        "prefix": "lg",
+        "body": ["console.log($1);", "$2"],
+        "description": "Insertar un console.log"
+    },
+    "HTML Template": {
+        "prefix": "htmltemplate",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"es\">",
+            "<head>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "    <meta name=\"author\" content=\"Donato Ramos Martínez\">",
+            "    <meta name=\"description\" content=\"$1\">",
+            "    <meta name=\"keywords\" content=\"$2\">",
+            "    <title>$3</title>",
+            "</head>",
+            "<body>",
+            "    $4",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Basic HTML template"
+    },
+    "CSS Template": {
+        "prefix": "csstemplate",
+        "body": ["/* Realizado por: Donato Ramos Martínez */", "/* Documento: $1 */", "$2"],
+        "description": "Basic CSS template"
+    }
+}
